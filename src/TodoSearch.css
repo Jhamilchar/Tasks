@@ -1,0 +1,21 @@
+.TodoSearch{
+    text-align: center;
+    padding: .5rem 7rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+
+.TodoSearch::placeholder {
+    color: rgb(16, 66, 37);
+    font-size: 1rem;
+    font-family: cursive;
+}
+
+.TodoSearch:focus{
+    outline-color: rgb(78, 216, 60);
+    font-size: 1rem;
+    font-family: cursive;
+    color: rgb(16, 66, 37);
+}
