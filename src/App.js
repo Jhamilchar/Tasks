@@ -7,10 +7,10 @@ import { CreateTodoButton } from "./CreateTodoButton";
 // import './App.css';
 
 const defaultTodos = [
-  { text: "Cortar Cebolla", completed: true },
+  { text: "Cortar Cebolla", completed: false },
   { text: "Tomar  el curso de intro a react", completed: false },
   { text: "Ir al gym", completed: false },
-  { text: "Miraras esta tarea?", completed: true },
+  { text: "Miraras esta tarea?", completed: false },
   { text: "Llorar con la llorona", completed: false }
 ];
 
